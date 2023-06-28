@@ -1,0 +1,223 @@
+body{
+    background-color: #CBCBCB;
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+.page1{
+    width: 100vh;
+    height: 100vh;
+}
+
+#intro{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    
+    padding-top: 10px;
+}
+
+
+.intro1{
+    position: absolute;
+    top: 60%;
+    font-size: 160px;
+    font-weight:900;
+    padding-left: 80px;
+
+}
+
+
+#stroke{
+    position: absolute;
+    top: 60%;
+    left: 6.8%;
+    padding-inline-start: 0%;
+    color:transparent;
+    font-size: 160px;
+    -webkit-text-stroke:1px #000000;
+    font-weight:200;
+    opacity: 50%;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color:rgb(0, 0, 0);
+}
+
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+
+nav ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight:bolder;
+    
+}
+
+#mode{
+    font-weight:bold;
+}
+
+nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color: rgb(26, 25, 25);
+    transition: width 0.3s; 
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+}
+span{
+
+    background-color: rgba(90, 90, 90, 1);
+    border-radius: 3px;
+    opacity: 100%;
+}
+
+.short_intro{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    font-size: 25px;
+}
+#connect{
+    position: absolute;
+    top: 80%;
+    left:2%;
+    writing-mode:vertical-rl;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+#connect::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(26, 25, 25);
+    transition: width 0.3s; 
+}
+
+
+#connect:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.fa-brands {
+    position: absolute;
+    left: 93%;
+    top: 40%;
+    font-size: 20px;  
+    text-decoration: none;  
+    color: #000000;
+}
+
+.fa-linkedin{
+    position: absolute;
+    left: 93%;
+    top:50%;
+    color: rgba(10, 102, 194, 1);
+}
+.fa-twitter{
+    position: absolute;
+    top: 60%;
+    color:rgba(29, 161, 242, 1);
+}
+.fa-brands {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+}
+
+.fa-brands:hover {
+    transform: scale(1.2); /* Increase the size of the icon */
+}
+
+.fa-brands i {
+    font-size: 20px; /* Initial size of the icon */
+}
+
+/* ===============================PAGE 2(ABOUT PAGE)======================= */
+
+.page2{
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+#myabout{
+    font-weight: bolder;
+    font-size: 400%;
+    position: absolute;
+    left: 7%;
+    top: 120%;
+    background-color: rgba(90, 90, 90, 1);
+    borders
+}
+.par1{
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 150%;
+}
+.par2{
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 160%;
+}
+.par3{
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 170%;
+}
+
+#stroke1{
+    position: absolute;
+    top: 120%;
+    left: 7.5%;
+    padding-inline-start: 0%;
+    color:transparent;
+    font-size: 400%;
+    -webkit-text-stroke:1px #000000;
+    font-weight:200;
+    opacity: 50%;
+}
+
+
+/* =========================================== PAGE 3 (PORJECTS PAGE)===============================*/
+
+
+
+
+
+
+
+
+
+
+/*================================================ PAGE 4 (BLOG PAGE)===============================*/
